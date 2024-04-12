@@ -21,18 +21,31 @@ li {
   margin: 10px;
   background-color: azure;
 }
-.applecider li{
+
+.applecider li,
+.applecider.subtext {
     background-color: rgb(255, 226, 98);
 }
 
-.nettlesoup li{
+.nettlesoup li,
+.nettlesoup.subtext{
     background-color: rgba(78, 139, 78, 0.918);
 }
 
-.surstromming li{
+.surstromming li,
+.surstromming.subtext{
     background-color: rgb(153, 153, 153);
 }
 
-.toothpaste li{
+.toothpaste li,
+.toothpaste.subtext {
     background-color: #b3ffe3;
+}
+
+.subtext {
+    border-radius: 1em;
+    width: 350px;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px;
 }
