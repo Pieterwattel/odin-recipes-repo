@@ -1,0 +1,31 @@
+recepten
+
+opmaak code ordenen
+
+tekst en afbeelding centreren
+ingredient cartoon die verticaal naar beneden komt als je omlaag scrollt
+individuele boxjes waar de stappen in staan, met een pastel kleur van de achtergrond
+
+laat de achtergrondkleur in faden
+
+alles centreren
+
+
+index:
+
+opmaak code ordenen
+
+achtergrond van een uitzicht
+
+recepten naast elkaar in blokjes die groter worden als je er overheen gaat, en een kleine animatie (zonnestraaltjes) afspelen als je er op klikt
+af en toe een kip die voorbij loopt op de achtergrond
+
+stap 1:
+fonts toewijzen, met fallback fonts
+bepaalde delen bold maken
+button maken voor teruggaan naar de homepage
+
+
+done:
+clean up code
+alles correcte classes geven
