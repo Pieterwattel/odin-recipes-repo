@@ -1,0 +1,20 @@
+*:not(head){
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 1em;
+}
+
+.inline {
+    display: inline;
+}
+
+img {
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+
+
+ {
+    outline: 2px solid red;
+  }
