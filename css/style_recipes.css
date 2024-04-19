@@ -5,7 +5,7 @@ h1 {
     font-weight: 900;
 }
 
-li {
+.steps li {
   width: 300px;
   height: auto;
   border: 2px solid black;
@@ -15,26 +15,37 @@ li {
 }
 
 .applecider li,
+.applecider.ingredients,
 .applecider.subtext {
     background-color: rgb(255, 226, 98);
 }
 
 .nettlesoup li,
+.nettlesoup.ingredients,
 .nettlesoup.subtext{
     background-color: rgba(78, 139, 78, 0.918);
 }
 
 .surstromming li,
+.surstromming.ingredients,
 .surstromming.subtext{
     background-color: rgb(153, 153, 153);
 }
 
 .toothpaste li,
+.toothpaste.ingredients,
 .toothpaste.subtext {
     background-color: #b3ffe3;
 }
 
-.subtext {
+.almondmilk li,
+.almondmilk.ingredients,
+.almondmilk.subtext {
+    background-color: #dfc98c
+}
+
+.subtext,
+.ingredients {
     border-radius: 1em;
     width: 350px;
     height: auto;
