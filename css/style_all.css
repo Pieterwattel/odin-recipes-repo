@@ -1,10 +1,11 @@
 *:not(head) {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     border-radius: 1em;
 }
 
 h1 {
     font-size: 38px;
+    filter: drop-shadow(2px 0px 11px rgb(224, 224, 224));
 }
 
 .inline {
