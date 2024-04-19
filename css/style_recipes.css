@@ -40,12 +40,14 @@ h1 {
 
 .almondmilk li,
 .almondmilk.ingredients,
-.almondmilk.subtext {
-    background-color: #dfc98c
+.almondmilk.subtext,
+.almondmilk.toptext {
+    background-color: #f5eacb
 }
 
 .subtext,
-.ingredients {
+.ingredients,
+.toptext {
     border-radius: 1em;
     width: 350px;
     height: auto;
