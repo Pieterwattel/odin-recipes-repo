@@ -1,8 +1,9 @@
 h1 {
     font-family: 'PT sans', sans-serif;
     font-weight: 1000;
-    color: black;
-text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
 }
 
 .index,
@@ -21,23 +22,26 @@ img {
     border: 2px solid black;
     filter: drop-shadow(2px 0px 3px black);
     height: 300px;
+    width: 300px;
 }
 
-@media (min-width: 750px) {
-    img {
-    flex-direction: row;
-      }
-      }
-
 .flex {
-    border: 1px solid green;
-    height: 300px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* border: 1px solid green; */
     display: flex;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 0;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.index .recipes12 {
+    height: 700px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 1;
+    gap: 1em;
 }
     
