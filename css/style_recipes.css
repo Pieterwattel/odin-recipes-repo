@@ -1,8 +1,8 @@
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(5, 73, 100);
-    font-size: 100;
+    font-family: 'PT sans', sans-serif;
     font-weight: 900;
+    color: rgb(5, 73, 100);
+    font-size: 120;
 }
 
 .steps li {
