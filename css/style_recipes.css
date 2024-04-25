@@ -15,30 +15,40 @@ h1 {
   border-radius: 1em;
 }
 
+.applecider .headerflex div,
+.applecider .headerflex h1,
 .applecider li,
 .applecider.ingredients,
 .applecider.subtext {
-    background-color: rgb(255, 226, 98);
+    background-color: rgb(211, 187, 79);
 }
 
+.nettlesoup .headerflex div,
+.nettlesoup .headerflex h1,
 .nettlesoup li,
 .nettlesoup.ingredients,
 .nettlesoup.subtext{
     background-color: rgba(78, 139, 78, 0.918);
 }
 
+.surstromming .headerflex div,
+.surstromming .headerflex h1,
 .surstromming li,
 .surstromming.ingredients,
 .surstromming.subtext{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(133, 133, 133);
 }
 
+.toothpaste .headerflex div,
+.toothpaste .headerflex h1,
 .toothpaste li,
 .toothpaste.ingredients,
 .toothpaste.subtext {
-    background-color: #b3ffe3;
+    background-color: #89c5af;
 }
 
+.almondmilk .headerflex div,
+.almondmilk .headerflex h1,
 .almondmilk li,
 .almondmilk.ingredients,
 .almondmilk.subtext,
