@@ -1,9 +1,9 @@
 h1 {
     font-family: 'PT sans', sans-serif;
     font-weight: 1000;
-    color: grey;
+    color: black;
     text-align: center;
-    background-color: black;
+    background-color: grey;
 }
 
 .index,
@@ -44,5 +44,6 @@ img {
     flex-shrink: 0;
     flex-basis: 1;
     gap: 1em;
+    flex-wrap: wrap;
 }
     

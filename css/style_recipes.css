@@ -5,6 +5,11 @@ h1 {
     font-size: 120;
 }
 
+.headerflex {
+    position:fixed; 
+    z-index: -1;
+}
+
 .steps li {
   width: 300px;
   height: auto;
