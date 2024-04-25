@@ -32,6 +32,7 @@ img {
     flex-shrink: 1;
     flex-basis: 0;
     justify-content: center;
+    flex-direction: row;
 }
 
 .index .recipes12 {
