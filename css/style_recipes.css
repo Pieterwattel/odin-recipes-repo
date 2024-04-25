@@ -5,9 +5,21 @@ h1 {
     font-size: 120;
 }
 
+.topborder {
+    padding: 3em 300px 1em 300px ;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+}
+
+.toptext {
+    text-align: center;
+}
+
 .headerflex {
     position:fixed; 
-    z-index: -1;
+    z-index: 1;
+    opacity: 1;
 }
 
 .steps li {
@@ -20,6 +32,11 @@ h1 {
   border-radius: 1em;
 }
 
+.applecider,
+.applecider .topborder{
+    background-color: #86860a;
+}
+
 .applecider .headerflex div,
 .applecider .headerflex h1,
 .applecider li,
@@ -28,12 +45,23 @@ h1 {
     background-color: rgb(211, 187, 79);
 }
 
+.nettlesoup,
+.nettlesoup .topborder{
+    background-color: #005a00;
+}
+
 .nettlesoup .headerflex div,
 .nettlesoup .headerflex h1,
+.nettlesoup .toptext,
 .nettlesoup li,
 .nettlesoup.ingredients,
 .nettlesoup.subtext{
-    background-color: rgba(78, 139, 78, 0.918);
+    background-color: rgba(78, 139, 78);
+}
+
+.surstromming,
+.surstromming .topborder{
+    background-color: #636363;
 }
 
 .surstromming .headerflex div,
@@ -44,12 +72,22 @@ h1 {
     background-color: rgb(133, 133, 133);
 }
 
+.toothpaste,
+.toothpaste .topborder{
+    background-color: #0b9472;
+}
+
 .toothpaste .headerflex div,
 .toothpaste .headerflex h1,
 .toothpaste li,
 .toothpaste.ingredients,
 .toothpaste.subtext {
     background-color: #89c5af;
+}
+
+.almondmilk,
+.almondmilk .topborder{
+    background-color: #dfc98c;
 }
 
 .almondmilk .headerflex div,
