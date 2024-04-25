@@ -21,8 +21,8 @@ img {
     flex: 1;
     border: 2px solid black;
     filter: drop-shadow(2px 0px 3px black);
-    height: 300px;
-    width: 300px;
+    height: 17em;
+    width: 17em;
 }
 
 .flex {
