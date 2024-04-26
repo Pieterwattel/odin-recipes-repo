@@ -1,15 +1,24 @@
 h1 {
     font-family: 'PT sans', sans-serif;
     font-weight: 1000;
-    color: black;
+    color: rgb(184, 184, 184);
     text-align: center;
-    background-color: grey;
+    background-color: rgb(109, 109, 109);
+}
+
+.index .headerflex h1 {
+    min-width: 640px;
+}
+
+.headerflex span {
+    flex-grow: 1;
+    width: 40px;
 }
 
 .index,
 .index a {
 color: black;
-background-color: rgb(231, 211, 211);
+background-color: grey;
 }
 
 * {
@@ -23,7 +32,6 @@ img {
     border: 2px solid black;
     filter: drop-shadow(2px 0px 3px black);
     height: 12em;
-    width: 12em;
 }
 
 .flex {
@@ -31,7 +39,7 @@ img {
     display: flex;
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 1;
     justify-content: center;
     flex-direction: row;
 }
