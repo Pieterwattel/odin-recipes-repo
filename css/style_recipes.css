@@ -7,9 +7,10 @@ h1 {
 
 .topborder {
     padding: 3em 300px 1em 300px ;
-    position: absolute;
+    position: top;
     top: 0px;
     position: fixed;
+    background-color: yellow !important;
 }
 
 .toptext {
@@ -110,9 +111,11 @@ h1 {
 }
 
 img {
+    margin-top: 6.5em;
     border-radius: 1em;
     border: 2px solid black;
 }
 
-button{
+.almondmilk .flexcontent button {
+    display: inline-block;
 }
